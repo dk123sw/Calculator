@@ -8,6 +8,10 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         style="@style/TextAreaStyle"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/colorDisplayDivider" />
     <TextView
         android:id="@+id/input"
         android:layout_width="match_parent"

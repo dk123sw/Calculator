@@ -13,20 +13,23 @@
             android:layout_height="0dp"
             android:layout_width="match_parent"
             android:id="@+id/cheng"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            style="@style/ButtonStyle"/>
 
         <Button
             android:text="-"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:id="@+id/jian" />
+            android:id="@+id/jian"
+            style="@style/ButtonStyle"/>
 
         <Button
             android:text="+"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            style="@style/ButtonStyle"
             android:id="@+id/jia" />
 
         <Button
@@ -34,6 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:id="@+id/deng"
+            style="@style/ButtonStyle"
             android:layout_weight="2" />
     </LinearLayout>
 

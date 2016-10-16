@@ -14,4 +14,11 @@
         <item name="android:gravity">center_vertical|right</item>
     </style>
 
+    <style name="ButtonStyle">
+        <item name="android:layout_margin">@dimen/btnMargin</item>
+        <item name="android:textSize">@dimen/btnTextSize</item>
+        <item name="android:textColor">@color/colorButtontext</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:background">@color/colorButtonBG</item>
+    </style>
 </resources>

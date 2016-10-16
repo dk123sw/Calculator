@@ -49,12 +49,13 @@ public class MainActivity extends AppCompatActivity {
                 input.setText("");
                 result.setText("");
                 view.invalidate();
+                break;
             case R.id.del:
                 String content = input.getText().toString();
                 if(content.length() > 0) {
                     content = content.substring(0, content.length() - 1);
                     input.setText(content);
-                    if (content.length() == 1.f){
+                    if (content.length() == 0.5f){
                         input.setText("");
                     }
                 }
@@ -90,8 +91,13 @@ public class MainActivity extends AppCompatActivity {
 
 
                 }catch (SyntaxException e){
-                    String str= "错误";
-                    Toast.makeText(MainActivity.this , str , Toast.LENGTH_SHORT).show();
+                    String zcontent = input.getText().toString();
+                    if (zcontent.length() == 0){
+                        Toast.makeText(MainActivity.this , "请输入数字" , Toast.LENGTH_SHORT).show();
+                    }else {
+                        String str = "错误";
+                        Toast.makeText(MainActivity.this, str, Toast.LENGTH_SHORT).show();
+                    }
                 }
                 break;
         }

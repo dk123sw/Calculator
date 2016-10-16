@@ -5,4 +5,9 @@
     <color name="colorAccent">#FF4081</color>
 
     <color name="colorDisplayText">#9F000000</color>
+    <color name="colorAppBG">#FF4B5459</color>
+    <color name="colorDisplayDivider">#FF5C6265</color>
+    <color name="colorButtontext">#b9e776fe</color>
+    <color name="colorButtonBG">#23ffea00</color>
 </resources>
+
