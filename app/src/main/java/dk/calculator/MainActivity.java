@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.c:
                 input.setText("");
                 result.setText("");
-                view.invalidate();
+//                view.invalidate();
                 break;
             case R.id.del:
                 String content = input.getText().toString();
